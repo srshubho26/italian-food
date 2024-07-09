@@ -79,6 +79,7 @@ header{
     background: url(imgs/banner_bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     padding: 20px 0;
 }
 
@@ -336,7 +337,11 @@ header .banner{
 
 
 .newsletter{
-    background: #27292c;
+    /* background: #27292c; */
+    background: url(imgs/banner_bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 150px 0;
     position: relative;
 }
