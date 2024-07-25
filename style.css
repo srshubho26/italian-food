@@ -13,7 +13,10 @@
 
 /* Shared CSS */
 .container{
-    width: 1340px;
+    width: 1360px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -91,6 +94,10 @@ header .headerWrap .logo{
     max-width: 120px;
 }
 
+header .navToggler{
+    display: none;
+}
+
 header ul{
     gap: 70px;
 }
@@ -148,6 +155,7 @@ header .banner{
 
 .service .title_wrap{
     width: 700px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -187,7 +195,9 @@ header .banner{
 }
 
 .shortInfo .infoWrapper{
-    width: 1060px;
+    width: 1080px;
+    max-width: 100%;
+    padding: 0 10px;
     margin: 0 auto;
     color: #fff;
     text-align: center;
@@ -201,13 +211,6 @@ header .banner{
     margin: 50px 0;
     text-align: left;
     gap: 60px;
-}
-
-.discount{
-
-}
-
-.discount .disWrap{
 }
 
 .discount .disWrap img{
@@ -239,7 +242,6 @@ header .banner{
     align-items: start;
 }
 
-
 .pizza{
     background: url(imgs/pizza_bg.jpg) no-repeat;
     background-position: center;
@@ -247,7 +249,9 @@ header .banner{
 }
 
 .pizza .titleBox{
-    width: 870px;
+    width: 890px;
+    max-width: 100%;
+    padding: 0 10px;
     color: #fff;
     margin: 0 auto;
     text-align: center;
@@ -270,9 +274,11 @@ header .banner{
     max-width: 190px;
 }
 
-.pizza .titleBox h2{
+.pizza .titleBox h2 {
     font-family: 'Reey', sans-serif;
     font-size: 58px;
+    position: relative;
+    z-index: 5;
 }
 
 .pizza .titleBox p{
@@ -281,6 +287,7 @@ header .banner{
     margin-bottom: 0;
     position: relative;
     padding-bottom: 50px;
+    z-index: 5;
 }
 
 .pizza .titleBox p::before{
@@ -297,6 +304,7 @@ header .banner{
 .pizza .pizzaImg{
     text-align: right;
     width: 1150px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -312,8 +320,9 @@ header .banner{
 }
 
 .testWrap{
-    padding: 50px 0;
-    width: 1135px;
+    padding: 50px 10px;
+    width: 1155px;
+    max-width: 100%;
     margin: 0 auto;
     gap: 70px;
 }
@@ -326,6 +335,7 @@ header .banner{
 
 .testimonial .testBottom{
     width: 800px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -337,12 +347,11 @@ header .banner{
 
 
 .newsletter{
-    /* background: #27292c; */
     background: url(imgs/banner_bg.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 150px 0;
+    padding: 150px 10px;
     position: relative;
 }
 
@@ -362,6 +371,7 @@ header .banner{
 
 .newsletter .newsletterWrap{
     width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     color: #fff;
     text-align: center;
@@ -371,9 +381,11 @@ header .banner{
     margin-top: 50px;
 }
 
-.newsletter .newsletterWrap h2{
+.newsletter .newsletterWrap h2 {
     font-size: 75px;
     font-weight: 700;
+    position: relative;
+    z-index: 5;
 }
 
 .newsletter .newsletterWrap p{

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Italian Food</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
@@ -14,7 +15,10 @@
                     <img src="imgs/logo.png" class="logo" alt="Logo">
                 </a>
         
-                <ul class="flex">
+                <img class="navToggler toggler-front" src="imgs/hamburger.png" alt="Hamburger">
+                <input class="navToggler toggler-back" type="checkbox">
+
+                <ul id="navElContainer" class="flex">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Menu</a></li>
                     <li><a href="#">Our Story</a></li>
