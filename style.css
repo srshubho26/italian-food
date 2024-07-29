@@ -38,11 +38,6 @@ section, footer{
     transition: .3s;
 }
 
-.btn:hover{
-    background: #e05898!important;
-    color: #fff;
-}
-
 .title{
     font-family: 'Reey', sans-serif;
     color: #222328;
@@ -51,6 +46,11 @@ section, footer{
 
 .bg-dark{
     background: #343434;
+    color: #fff;
+}
+
+.btn:hover{
+    background: #e05898!important;
     color: #fff;
 }
 
@@ -399,6 +399,12 @@ header .banner{
     border-radius: 50px 0 0 50px;
     border: none;
     flex-basis: 100%;
+    transition: .3s;
+}
+
+.newsletter .newsletterWrap form input:focus{
+    outline: 0;
+    background: #c3c3c3;
 }
 
 .newsletter .newsletterWrap form button{
